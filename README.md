@@ -9,7 +9,7 @@
 ---
 
 ## 1. Introducción
-El presente proyecto consiste en el diseño e implementación de un sistema académico de gestión de estudiantes utilizando la estructura de datos de Árbol Binario de Búsqueda (BST). La solución ha sido desarrollada de forma bilingüe en los lenguajes C++ y Java, aplicando principios de programación orientada a objetos, recursividad y gestión eficiente de memoria.
+El presente proyecto consiste en el diseño e implementación de un sistema académico de gestión de estudiantes utilizando la estructura de datos de Árbol Binario de Búsqueda (BST). La solución ha sido desarrollada en los C++ aplicando principios de programación orientada a objetos, recursividad y gestión eficiente de memoria.
 
 El sistema permite organizar la información estudiantil (cédula, nombres, notas, carrera y nivel) tomando como clave primaria la cédula de identidad, garantizando un acceso logarítmico a la información.
 
