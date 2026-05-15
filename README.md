@@ -3,8 +3,8 @@
 
 ## Proyecto: Gestión de Estructuras de Datos mediante Árboles Binarios de Búsqueda
 **Asignatura:** Estructura de Datos  
-**Lenguajes de Programación:** C++ y Java  
-**Desarrollador:** [Tu Nombre]  
+**Lenguajes de Programación:** C++  
+**Estudiante:** Toapanta Paucar Pablo Daniel
 
 ---
 
@@ -19,10 +19,6 @@ El sistema permite organizar la información estudiantil (cédula, nombres, nota
 - Implementación de memoria dinámica para la creación y eliminación de registros.
 - Modularización mediante estructuras y clases.
 
-### Implementación en Java
-- Aplicación de Programación Orientada a Objetos (POO).
-- Gestión de referencias para la construcción de la estructura arbórea.
-- Uso de colecciones (Queue) para la implementación de recorridos en anchura (BFS).
 
 ## 3. Funcionalidades del Sistema
 El software incluye las siguientes capacidades obligatorias:
@@ -39,10 +35,6 @@ El software incluye las siguientes capacidades obligatorias:
 1. Compilar el archivo principal: `g++ -o sistema_academico main.cpp`
 2. Ejecutar el binario generado: `./sistema_academico`
 
-### Entorno Java
-1. Compilar las clases: `javac Main.java`
-2. Ejecutar la aplicación: `java Main`
-
 ---
 
 ## 5. Evidencias de Ejecución
@@ -51,45 +43,49 @@ A continuación se presentan las capturas de pantalla que validan el correcto fu
 
 ### Gestión de Datos y Búsqueda
 **Inserción de un nuevo registro:**
-![Inserción de estudiante](ejecucion_insertar_estudiante.png)
+![Inserción de estudiante](capturas/ejecucion_insertar_estudiante.png)
 
 **Búsqueda de estudiante por cédula:**
-![Buscar estudiante](ejecucion_buscar_estudiante.png)
+![Buscar estudiante](capturas/ejecucion_buscar_estudiante.png)
 
 ### Recorridos del Árbol
 **Recorrido Inorden (Orden ascendente por cédula):**
-![Recorrido Inorden](ejecucion_recorrido_inorden.png)
+![Recorrido Inorden](capturas/ejecucion_recorrido_inorden.png)
 
 **Recorrido Preorden:**
-![Recorrido Preorden](ejecucion_recorrido_preorden.png)
+![Recorrido Preorden](capturas/ejecucion_recorrido_preorden.png)
 
 **Recorrido Postorden:**
-![Recorrido Postorden](ejecucion_recorrido_postorden.png)
+![Recorrido Postorden](capturas/ejecucion_recorrido_postorden.png)
 
 **Recorrido por Niveles (BFS):**
-![Recorrido BFS](ejecucion_recorrido_BFS.png)
+![Recorrido BFS](capturas/ejecucion_recorrido_BFS.png)
 
 ### Métricas y Estadísticas
 **Cálculo de la altura del árbol:**
-![Altura del árbol](ejecucion_calcular_altura_arbol.png)
+![Altura del árbol](capturas/ejecucion_calcular_altura_arbol.png)
 
 **Conteo total de registros:**
-![Conteo de estudiantes](ejecucion_contar_total_estudiantes.png)
+![Conteo de estudiantes](capturas/ejecucion_contar_total_estudiantes.png)
 
 ### Reportes Académicos
 **Estudiante con el mejor rendimiento (Nota Mayor):**
-![Nota Mayor](ejecucion_mostrar_estudiante_mayor_nota.png)
+![Nota Mayor](capturas/ejecucion_mostrar_estudiante_mayor_nota.png)
 
 **Estudiante con el menor rendimiento (Nota Menor):**
-![Nota Menor](ejecucion_nota_menor.png)
+![Nota Menor](capturas/ejecucion_nota_menor.png)
 
 **Listado de estudiantes aprobados:**
-![Alumnos aprobados](ejecucion_alumnos_aprobados.png)
+![Alumnos aprobados](capturas/ejecucion_alumnos_aprobados.png)
 
 **Listado de estudiantes reprobados:**
-![Alumnos reprobados](ejecucion_alumnos_reprobados.png)
+![Alumnos reprobados](capturas/ejecucion_alumnos_reprobados.png)
 
 ---
 
+### Commits Generados
+
+![Commits](capturas/commits.png)
+
 ## 6. Conclusiones
-La implementación exitosa de este sistema demuestra la versatilidad de los Árboles Binarios de Búsqueda para el manejo de información jerárquica y ordenada. Se ha logrado una paridad funcional entre C++ y Java, respetando las convenciones técnicas de cada lenguaje y cumpliendo con los requerimientos académicos establecidos para la asignatura.
+La implementación exitosa de este sistema demuestra la versatilidad de los Árboles Binarios de Búsqueda para el manejo de información jerárquica y ordenada.
